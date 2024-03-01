@@ -1,8 +1,4 @@
-/**
- * A draggable snap-like carousel, optimized to work smoothly across desktop and mobile devices.
- *
- */
-
+/
 class Carousel {
   /**
    *
@@ -332,7 +328,6 @@ class Carousel {
     clearTimeout(this.holdTimer);
   };
 }
-export default Carousel;
 
 window.addEventListener("DOMContentLoaded", (event) => {
   const brands = [
