@@ -524,7 +524,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
   const switchModel = (idx, subIdx) => {
     modelViewer.setAttribute("exposure", effectList[idx][subIdx].exposure);
     modelViewer.setAttribute(
-      "cameraTarget",
+      "camera-target",
       effectList[idx][subIdx].cameraTarget
     );
     modelViewer.setAttribute(
