@@ -524,6 +524,10 @@ window.addEventListener("DOMContentLoaded", (event) => {
   const switchModel = (idx, subIdx) => {
     modelViewer.setAttribute("exposure", effectList[idx][subIdx].exposure);
     modelViewer.setAttribute(
+      "cameraTarget",
+      effectList[idx][subIdx].cameraTarget
+    );
+    modelViewer.setAttribute(
       "camera-orbit",
       effectList[idx][subIdx].cameraOrbit
     );
@@ -533,7 +537,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     );
     modelViewer.setAttribute(
       "min-field-ofView",
-      effectList[idx][subIdx].minCameraOrbit
+      effectList[idx][subIdx].minFieldOfView
     );
     modelViewer.setAttribute(
       "environment-image",
