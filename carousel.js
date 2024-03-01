@@ -332,5 +332,3 @@ class Carousel {
     clearTimeout(this.holdTimer);
   };
 }
-
-export default Carousel;
