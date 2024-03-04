@@ -342,33 +342,26 @@ window.addEventListener("DOMContentLoaded", (event) => {
         icon: "https://uploads-ssl.webflow.com/659d5e3349088fcd7ab21373/65df662f5048cefc21895f05_icn_cirkl_black_01.png",
         model:
           "https://uploads-ssl.webflow.com/659d5e3349088fcd7ab21373/65de04bacbf7cfafab24ce10_Suglasses-Cube-12_3_comp.glb.txt",
-        exposure: 1,
+        exposure: 1.5,
         cameraTarget: "auto auto auto",
         cameraOrbit: "28.41deg 83.09deg 12.62m",
-        fieldOfView: "30deg",
         minCameraOrbit: "auto auto 11.95m",
         minFieldOfView: "26.96deg",
-        environment: "neutral",
+        environment: "https://cdn.jsdelivr.net/gh/Umion/temp/Jewelry-HDRI.hdr",
       },
       {
         icon: "https://uploads-ssl.webflow.com/659d5e3349088fcd7ab21373/65df6639658bed50fed1586f_icn_cirkl_blue_01.png",
         model:
           "https://uploads-ssl.webflow.com/659d5e3349088fcd7ab21373/65de04ba8465b69c31f40f73_Suglasses-Cube-12_1_comp.glb.txt",
-        exposure: 1,
-        cameraTarget: "auto auto auto",
-        cameraOrbit: "28.41deg 83.09deg 12.62m",
-        fieldOfView: "30deg",
-        minCameraOrbit: "auto auto 11.95m",
-        minFieldOfView: "26.96deg",
-        environment: "neutral",
+        exposure: 1.5,
+        environment: "https://cdn.jsdelivr.net/gh/Umion/temp/Jewelry-HDRI.hdr",
       },
       {
         icon: "https://uploads-ssl.webflow.com/659d5e3349088fcd7ab21373/65df6639474801ebcaddb37d_icn_cirkl_yellow_01.png",
         model:
           "https://uploads-ssl.webflow.com/659d5e3349088fcd7ab21373/65de04bae14bde34b1602fc9_Suglasses-Cube-12_2_comp.glb.txt",
-        exposure: 1,
-        cameraOrbit: "41.74deg 85.35deg 12.62m",
-        environment: "neutral",
+        exposure: 1.5,
+        environment: "https://cdn.jsdelivr.net/gh/Umion/temp/Jewelry-HDRI.hdr",
       },
     ],
     [
@@ -376,7 +369,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
         icon: "https://uploads-ssl.webflow.com/659d5e3349088fcd7ab21373/65df6625fd38dc95cbdf8b7d_icn_cirkl_hat_01.png",
         model:
           "https://uploads-ssl.webflow.com/659d5e3349088fcd7ab21373/65e09f3f3b78ef520a040919_hat_dark3.glb.txt",
-        exposure: 1,
+        exposure: 1.5,
         cameraTarget: "auto auto auto",
         cameraOrbit: "0.5325deg 89.02deg 86.52m",
         minCameraOrbit: "auto auto 78.57m",
@@ -387,11 +380,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
         icon: "https://uploads-ssl.webflow.com/659d5e3349088fcd7ab21373/65df6625474801ebcadd9856_icn_cirkl_hat_02.png",
         model:
           "https://uploads-ssl.webflow.com/659d5e3349088fcd7ab21373/65e09f3e1a1c7036c3b866d5_hat_light3.glb.txt",
-        exposure: 1,
-        cameraTarget: "auto auto auto",
-        cameraOrbit: "0.5325deg 89.02deg 86.52m",
-        minCameraOrbit: "auto auto 78.57m",
-        minFieldOfView: "24.96deg",
+        exposure: 1.5,
         environment: "neutral",
       },
     ],
@@ -401,11 +390,10 @@ window.addEventListener("DOMContentLoaded", (event) => {
         model:
           "https://uploads-ssl.webflow.com/659d5e3349088fcd7ab21373/65d9011591caf38c3d05ae37_DIORTRAVEL_VANITY_CASE_004.glb.txt",
         exposure: 1.5,
-        cameraTarget: "-0.003971m 0.09m 0.004712m",
-        cameraTarget: "-0.003971m 0.09m 0.004712m",
-        cameraOrbit: "1.545deg 87.57deg 0.691m",
-        minCameraOrbit: "auto auto 0.6362m",
-        minFieldOfView: "25.6deg",
+        cameraTarget: "-0.003971m 0.08m 0.004712m",
+        cameraOrbit: "0.5343deg 90.74deg 0.6377m",
+        minCameraOrbit: "auto auto 0.5731m",
+        minFieldOfView: "24.5deg",
         environment: "https://cdn.jsdelivr.net/gh/Umion/temp/Jewelry-HDRI.hdr",
       },
       {
@@ -413,22 +401,14 @@ window.addEventListener("DOMContentLoaded", (event) => {
         model:
           "https://uploads-ssl.webflow.com/659d5e3349088fcd7ab21373/65d901158d2501f2379da707_diortravel_vanity_logo.glb.txt",
         exposure: 1.5,
-        cameraTarget: "-0.003971m 0.09m 0.004712m",
-        cameraOrbit: "1.545deg 87.57deg 0.691m",
-        minCameraOrbit: "auto auto 0.6362m",
-        minFieldOfView: "25.6deg",
-        environment: "https://cdn.jsdelivr.net/gh/Umion/temp/Jewelry-HDRI.hdr",
+        environment: "neutral",
       },
       {
         icon: "https://uploads-ssl.webflow.com/659d5e3349088fcd7ab21373/65af989fa5fd0155dffad903_texture_3.png",
         model:
           "https://uploads-ssl.webflow.com/659d5e3349088fcd7ab21373/65d901f6566cca65116ff36d_VANITY_CASE_BlackWhite.glb.txt",
         exposure: 1.5,
-        cameraTarget: "-0.003971m 0.09m 0.004712m",
-        cameraOrbit: "1.545deg 87.57deg 0.691m",
-        minCameraOrbit: "auto auto 0.6362m",
-        minFieldOfView: "25.6deg",
-        environment: "https://cdn.jsdelivr.net/gh/Umion/temp/Jewelry-HDRI.hdr",
+        environment: "neutral",
       },
     ],
     [
@@ -448,10 +428,6 @@ window.addEventListener("DOMContentLoaded", (event) => {
         model:
           "https://uploads-ssl.webflow.com/659d5e3349088fcd7ab21373/65df29de9b4f36a47fb2d000_watch_v2_02_comp.glb.txt",
         exposure: 1,
-        cameraTarget: "auto auto auto",
-        cameraOrbit: "-0.2184deg 93.9deg 8.125m",
-        minCameraOrbit: "auto auto 7.464m",
-        minFieldOfView: "25.5deg",
         environment: "neutral",
       },
     ],
@@ -460,7 +436,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
         icon: "https://uploads-ssl.webflow.com/659d5e3349088fcd7ab21373/65df662f5048cefc21895f05_icn_cirkl_black_01.png",
         model:
           "https://uploads-ssl.webflow.com/659d5e3349088fcd7ab21373/65d8ff99134348b6c3f6b86c_Balenciaga_Black_R.glb.txt",
-        exposure: 1,
+        exposure: 1.5,
         cameraTarget: "auto auto auto",
         cameraOrbit: "0deg 75deg 672.9m",
         minCameraOrbit: "auto auto 628.5m",
@@ -471,22 +447,14 @@ window.addEventListener("DOMContentLoaded", (event) => {
         icon: "https://uploads-ssl.webflow.com/659d5e3349088fcd7ab21373/65df662f127e47e299465aec_icn_cirkl_gray_01.png",
         model:
           "https://uploads-ssl.webflow.com/659d5e3349088fcd7ab21373/65de1bdbd13c4e5af9de3109_Balenciaga_Gray_R.glb.txt",
-        exposure: 1,
-        cameraTarget: "auto auto auto",
-        cameraOrbit: "0deg 75deg 672.9m",
-        minCameraOrbit: "auto auto 628.5m",
-        minFieldOfView: "26.29deg",
+        exposure: 1.5,
         environment: "neutral",
       },
       {
         icon: "https://uploads-ssl.webflow.com/659d5e3349088fcd7ab21373/65df662f241f1824ca8d253b_icn_cirkl_pink_01.png",
         model:
           "https://uploads-ssl.webflow.com/659d5e3349088fcd7ab21373/65de1bdbc5fa370abb512797_Balenciaga_pink_R.glb.txt",
-        exposure: 1,
-        cameraTarget: "auto auto auto",
-        cameraOrbit: "0deg 75deg 672.9m",
-        minCameraOrbit: "auto auto 628.5m",
-        minFieldOfView: "26.29deg",
+        exposure: 1.5,
         environment: "neutral",
       },
     ],
@@ -514,7 +482,6 @@ window.addEventListener("DOMContentLoaded", (event) => {
   modelViewer.addEventListener("poster-dismissed", (e) => {
     document.querySelector(".prompt").style.opacity = 1;
     bar.style.opacity = 0;
-    //modelViewer.environmentImage = "https://github.com/Umion/temp/raw/main/Jewelry-HDRI.hdr"
   });
 
   const carousel = new Carousel("carousel");
@@ -522,28 +489,30 @@ window.addEventListener("DOMContentLoaded", (event) => {
   carousel.moveToActiveSlide();
 
   const switchModel = (idx, subIdx) => {
+    modelViewer.setAttribute("src", effectList[idx][subIdx].model);
     modelViewer.setAttribute("exposure", effectList[idx][subIdx].exposure);
-    modelViewer.setAttribute(
-      "camera-target",
-      effectList[idx][subIdx].cameraTarget
-    );
-    modelViewer.setAttribute(
-      "camera-orbit",
-      effectList[idx][subIdx].cameraOrbit
-    );
-    modelViewer.setAttribute(
-      "min-camera-orbit",
-      effectList[idx][subIdx].minCameraOrbit
-    );
-    modelViewer.setAttribute(
-      "min-field-ofView",
-      effectList[idx][subIdx].minFieldOfView
-    );
     modelViewer.setAttribute(
       "environment-image",
       effectList[idx][subIdx].environment
     );
-    modelViewer.setAttribute("src", effectList[idx][subIdx].model);
+    if (!subIdx) {
+      modelViewer.setAttribute(
+        "camera-target",
+        effectList[idx][subIdx].cameraTarget
+      );
+      modelViewer.setAttribute(
+        "camera-orbit",
+        effectList[idx][subIdx].cameraOrbit
+      );
+      modelViewer.setAttribute(
+        "min-camera-orbit",
+        effectList[idx][subIdx].minCameraOrbit
+      );
+      modelViewer.setAttribute(
+        "min-field-ofView",
+        effectList[idx][subIdx].minFieldOfView
+      );
+    }
   };
 
   sidebarItems.forEach((s, i) => {
