@@ -488,14 +488,14 @@ window.addEventListener("DOMContentLoaded", (event) => {
   carousel.setActiveSlide(2);
   carousel.moveToActiveSlide();
 
-  const switchModel = (idx, subIdx) => {
+  const switchModel = (idx, subIdx, updatePos = true) => {
     modelViewer.setAttribute("src", effectList[idx][subIdx].model);
-    modelViewer.setAttribute("exposure", effectList[idx][subIdx].exposure);
     modelViewer.setAttribute(
       "environment-image",
       effectList[idx][subIdx].environment
     );
-    if (!subIdx) {
+    if (updatePos) {
+      modelViewer.setAttribute("exposure", effectList[idx][subIdx].exposure);
       modelViewer.setAttribute(
         "camera-target",
         effectList[idx][subIdx].cameraTarget
@@ -522,7 +522,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
         si.classList.remove("active");
       });
       s.classList.add("active");
-      switchModel(index, i);
+      switchModel(index, i, false);
       subIndex = i;
     };
   });
