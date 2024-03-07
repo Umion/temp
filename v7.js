@@ -400,14 +400,14 @@ window.addEventListener("DOMContentLoaded", (event) => {
         icon: "https://uploads-ssl.webflow.com/659d5e3349088fcd7ab21373/65af989f9590b831c4fe770e_texture_2.png",
         model:
           "https://uploads-ssl.webflow.com/659d5e3349088fcd7ab21373/65d901158d2501f2379da707_diortravel_vanity_logo.glb.txt",
-        exposure: 1.5,
+        exposure: 0.9,
         environment: "neutral",
       },
       {
         icon: "https://uploads-ssl.webflow.com/659d5e3349088fcd7ab21373/65af989fa5fd0155dffad903_texture_3.png",
         model:
           "https://uploads-ssl.webflow.com/659d5e3349088fcd7ab21373/65d901f6566cca65116ff36d_VANITY_CASE_BlackWhite.glb.txt",
-        exposure: 1.5,
+        exposure: 0.9,
         environment: "neutral",
       },
     ],
@@ -441,21 +441,21 @@ window.addEventListener("DOMContentLoaded", (event) => {
         cameraOrbit: "0deg 75deg 672.9m",
         minCameraOrbit: "auto auto 628.5m",
         minFieldOfView: "26.29deg",
-        environment: "neutral",
+        environment: "https://cdn.jsdelivr.net/gh/Umion/temp/Jewelry-HDRI.hdr",
       },
       {
         icon: "https://uploads-ssl.webflow.com/659d5e3349088fcd7ab21373/65df662f127e47e299465aec_icn_cirkl_gray_01.png",
         model:
           "https://uploads-ssl.webflow.com/659d5e3349088fcd7ab21373/65de1bdbd13c4e5af9de3109_Balenciaga_Gray_R.glb.txt",
         exposure: 1.5,
-        environment: "neutral",
+        environment: "https://cdn.jsdelivr.net/gh/Umion/temp/Jewelry-HDRI.hdr",
       },
       {
         icon: "https://uploads-ssl.webflow.com/659d5e3349088fcd7ab21373/65df662f241f1824ca8d253b_icn_cirkl_pink_01.png",
         model:
           "https://uploads-ssl.webflow.com/659d5e3349088fcd7ab21373/65de1bdbc5fa370abb512797_Balenciaga_pink_R.glb.txt",
         exposure: 1.5,
-        environment: "neutral",
+        environment: "https://cdn.jsdelivr.net/gh/Umion/temp/Jewelry-HDRI.hdr",
       },
     ],
   ];
