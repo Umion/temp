@@ -494,8 +494,8 @@ window.addEventListener("DOMContentLoaded", (event) => {
       "environment-image",
       effectList[idx][subIdx].environment
     );
+    modelViewer.setAttribute("exposure", effectList[idx][subIdx].exposure);
     if (updatePos) {
-      modelViewer.setAttribute("exposure", effectList[idx][subIdx].exposure);
       modelViewer.setAttribute(
         "camera-target",
         effectList[idx][subIdx].cameraTarget
