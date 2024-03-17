@@ -484,9 +484,15 @@ window.addEventListener("DOMContentLoaded", (event) => {
     bar.style.opacity = 0;
   });
 
+  // carousel model-viewer
   const carousel = new Carousel("carousel");
   carousel.setActiveSlide(2);
   carousel.moveToActiveSlide();
+
+  // carousel ads section
+  const carouselAds = new Carousel("carousel-ads");
+  carouselAds.setActiveSlide(1);
+  carouselAds.moveToActiveSlide();
 
   const switchModel = (idx, subIdx, updatePos = true) => {
     modelViewer.setAttribute("src", effectList[idx][subIdx].model);
