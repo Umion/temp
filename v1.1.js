@@ -560,6 +560,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     modelViewer.addEventListener("touchstart", (e) => {
       e.preventDefault();
       try {
+        console.log("touchstart");
         gtag("event", "main_3d_interactions");
       } catch (error) {
         console.log(error);
@@ -568,6 +569,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
   } else {
     modelViewer.addEventListener("mousedown", (e) => {
       try {
+        console.log("mousedown");
         gtag("event", "main_3d_interactions");
       } catch (error) {
         console.log(error);
