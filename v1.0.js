@@ -186,7 +186,6 @@ class Carousel {
    * @param {Event} e
    */
   onDragStart = (e) => {
-    console.log("drag start");
     const centerClick = e.target.id === "carousel-center";
 
     this.slider.style.transition = "";
@@ -209,7 +208,6 @@ class Carousel {
    * Remove the active state of the slider
    */
   onDragEnd = () => {
-    console.log("drag end");
     this.elem.classList.remove("active");
     this.slider.style.transition = "transform 0.3s ease";
 
@@ -229,12 +227,6 @@ class Carousel {
    */
   onMove = (e) => {
     let pos = e.pageX || e.touches?.[0].pageX;
-
-    // console.log("on move");
-    // console.log("start of drag:", this.startX);
-    // console.log("new position:", e.pageX);
-    // console.log("new position (touch):", e.touches?.[0].pageX);
-    // console.log("pos:", pos);
 
     const movedDistance = pos - this.dragStartX;
     const moved = movedDistance >= 1 || movedDistance <= -1;
@@ -301,9 +293,7 @@ class Carousel {
   };
 
   startHoldTimer = () => {
-    console.log("startHoldTimer");
     this.holdTimer = setTimeout(() => {
-      console.log("this.moved", this.moved);
       if (!this.moved) {
         this.onActiveHoldStart && this.onActiveHoldStart();
         this.activeHoldStarted = true;
@@ -314,7 +304,6 @@ class Carousel {
   };
 
   endHoldTimer = () => {
-    console.log("endHoldTimer");
     clearTimeout(this.holdTimer);
     this.activeHoldStarted = false;
     if (this.onActiveHoldEnd) {
@@ -323,7 +312,6 @@ class Carousel {
   };
 
   cancelHoldTimer = () => {
-    console.log("cancelHoldTimer");
     clearTimeout(this.holdTimer);
   };
 }
@@ -530,6 +518,11 @@ window.addEventListener("DOMContentLoaded", (event) => {
       s.classList.add("active");
       switchModel(index, i, false);
       subIndex = i;
+      try {
+        gtag("event", "main_3d_picker");
+      } catch (error) {
+        console.log(error);
+      }
     };
   });
 
@@ -553,6 +546,32 @@ window.addEventListener("DOMContentLoaded", (event) => {
         }
       });
       switchModel(value, subIndex);
+      try {
+        gtag("event", "main_3d_picker");
+      } catch (error) {
+        console.log(error);
+      }
     }
   };
+
+  const isTouchDevice = "ontouchstart" in window || navigator.maxTouchPoints;
+
+  if (isTouchDevice) {
+    modelViewer.addEventListener("touchstart", (e) => {
+      e.preventDefault();
+      try {
+        gtag("event", "main_3d_interactions");
+      } catch (error) {
+        console.log(error);
+      }
+    });
+  } else {
+    modelViewer.addEventListener("mousedown", (e) => {
+      try {
+        gtag("event", "main_3d_interactions");
+      } catch (error) {
+        console.log(error);
+      }
+    });
+  }
 });
